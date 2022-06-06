@@ -1,0 +1,28 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding:0 20px;
+    align-items: center;
+    background-color: burlywood;
+    color: white;
+
+}
+.voucher{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#voucher_list {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+img{
+    width: 220px;
+}
+#purchased_vouchers{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
